@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-image: url(../img/bg/bg.png);
+    background-size: 100%;
+}
+
+.page {
+    margin: 40px 70px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+    height: 5.714285714285714vw;
+    
+    background-color: rgb(49,49,49);
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.top__logo {
+    /*width: 7.714285714285714vw;*/
+    margin-left: 2.857142857142857vw;
+
+}
+
+.logo__text {
+    color: rgb(255,255,255);
+    font-size: 2.142857142857143vw;
+}
+
+.logo__text__V {
+    font-size: 2.842857142857143vw;
+    color: rgb(85,178,243);
+}
+
+.top__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 34.07142857142857%;
+    margin-left: 3.785714285714286%;
+}
+
+.top__navigation span {
+    color: rgb(255,255,255);
+    font-size: 1vw;
+}
+
+div .navigation__slash {
+    color: rgb(65,65,65);
+}
+
+
+.top__ads {
+    width: 33.28571428571429%;
+    background-color: rgb(255,255,255);
+    height: 4.285714285714286vw;
+    margin-left: 7.571428571428571%;
+}
