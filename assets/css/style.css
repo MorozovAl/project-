@@ -23,7 +23,6 @@ body {
 .top__logo {
     /*width: 7.714285714285714vw;*/
     margin-left: 2.857142857142857vw;
-
 }
 
 .logo__text {
@@ -60,4 +59,115 @@ div .navigation__slash {
     background-color: rgb(255,255,255);
     height: 4.285714285714286vw;
     margin-left: 7.571428571428571%;
+}
+
+
+.bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: 3vw;
+    background-color: rgb(243,243,243);
+}
+
+.bot__red-block {
+    width: 12.93650793650794%;
+    background-color: rgb(231, 87, 87);
+    height: 100%;
+    
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.142857142857143vw;
+}
+
+.bot__red-block::before {
+    content: "";
+    display: block;
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(231, 87, 87);
+    
+    position: relative;
+    left: 85%;
+    top: 15%;
+    transform: rotate(45deg);
+    z-index: 2;
+}
+
+.red-block__text {
+    display: block;
+    position: relative;
+    z-index: 3;
+    
+    top: -1.3vw;
+    
+    color: rgb(253,246,246);
+    text-align: center;
+    
+}
+
+.bot__news {
+    width: 73.634921%;
+    background-color: rgb(243,243,243);
+    overflow: hidden;
+}
+
+.bot__news__slider {
+    width: 400%;
+    display: flex;
+    flex-direction: row;
+    animation: slide 40s linear 1s alternate infinite;
+}
+
+.bot__news__slider:hover {
+    animation-play-state: paused;
+}
+
+.bot__news__block {
+    width: 25%;
+    font-size: 1vw;
+    margin-top: 0.3%;
+    text-align: center;
+    color: rgb(45,45,45);
+    cursor: pointer;
+}
+
+.bot__news__block:hover {
+    color: rgb(85,178,243);
+    
+}
+
+.bot__news__star {
+    font-size: 1vw;
+    margin-top: 0.25%;
+    color: grey;
+}
+
+.bot__social {
+    width: 13.57142857142857%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bot__social__link {
+    width: 24%;
+    height: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+@keyframes slide {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-75%);
+        transform: translateX(-75%);
+    }
+
 }
